@@ -260,7 +260,7 @@ Wbpd.prototype={
         }
 
         var url, zone, ext;
-        var url_pre = $("#https").is(':checked') ? https_pre : http_pre;
+        var url_pre = $("#https").is(':checked') ? https_pre : https_pre;
         if (typeof(type) == 'undefined') type = 'bmiddle';
         if (params.pid[9] == 'w') {
             zone = (crc32(params.pid) & 3) + 1;

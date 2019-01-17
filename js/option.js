@@ -76,9 +76,9 @@ $(document).ready(function() {
     $('.donate').on('click', function() {
         swal({
             title: "扫码捐助",
-            text: '<img width="200" height="200" src="http://ww2.sinaimg.cn/large/5fd37818gw1f46gp47ynsj20dw0dwq4i.jpg">' +
+            text: '<img width="200" height="200" src="https://ww2.sinaimg.cn/large/5fd37818gw1f46gp47ynsj20dw0dwq4i.jpg">' +
                 '<span style="margin:10px;">或</span>' +
-                '<img width="200" height="200" src="http://ww3.sinaimg.cn/large/5fd37818gw1f46gph7932j20dw0dwmz6.jpg">',
+                '<img width="200" height="200" src="https://ww3.sinaimg.cn/large/5fd37818gw1f46gph7932j20dw0dwmz6.jpg">',
             html: true
         });
     });
